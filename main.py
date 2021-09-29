@@ -2,8 +2,8 @@ import pandas as pd
 from twilio.rest import Client
 
 # logando no twilio
-account_sid = "AC2a63b0bb6c1e695abb935e12723d88a3"
-auth_token  = "757a5cff140269060608ee5325d15df4"
+account_sid = "YOUR_SID"
+auth_token  = "YOUR_TOKEN"
 client = Client(account_sid, auth_token)
 
 # abrir os arquivos em excel e analizar o que teve mais vendas e quantas vendas
